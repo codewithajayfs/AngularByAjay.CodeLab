@@ -1,4 +1,6 @@
-# AngularByAjayCodeLab
+# AngularByAjay.CodeLab
+
+🚀 A structured repository of Angular concepts and hands-on examples, covering components, data binding, directives, dependency injection, routing, forms, HTTP communication, RxJS, and real-world application development.
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.3.
 
