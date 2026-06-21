@@ -8,5 +8,6 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('AngularByAjay.CodeLab');
+  protected readonly title = signal('AngularByAjay - CodeLab');
+  description = 'Welcome to the Angular 22 CodeLab! Happy Coding!';
 }
