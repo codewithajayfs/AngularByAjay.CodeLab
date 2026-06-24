@@ -1,0 +1,13 @@
+<div class="child-comp">
+    <p>Child Component Works!</p>
+    <button (click)="increaseCounter()">Click Me {{childCounter}}</button>
+    <p>Input from Parent = {{data}}</p>
+
+    <p>
+        Child Data: <br>
+        id: {{childModel.id}} <br>
+        name: {{childModel.name}}
+    </p>
+
+    <ng-content></ng-content>
+</div>

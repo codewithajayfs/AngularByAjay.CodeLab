@@ -1,12 +1,13 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Profile } from "./profile/profile";
+import { Parent } from './lifecycle/parent/parent';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.css',
-  imports: [Profile]
+  imports: [Profile, Parent]
 })
 export class App {
   

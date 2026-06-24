@@ -1,0 +1,16 @@
+<p>Parent Component Works!</p>
+<h1>{{count}}</h1>
+<button (click)="counter()" #btnCounter>Counter</button>
+<!-- <app-child [data]="count" [data2]="test" [childModel]="objChildModel">
+    <h1>Dynamic data from Parent</h1>
+</app-child>
+<hr>
+
+<app-child [data]="count" [data2]="test" [childModel]="objChildModel">
+    <button>Dynamic Button</button>
+</app-child>    
+<hr> -->
+
+<app-child [data]="count" [data2]="test" [childModel]="objChildModel">
+    <app-child-address [address]="address"></app-child-address>
+</app-child>
