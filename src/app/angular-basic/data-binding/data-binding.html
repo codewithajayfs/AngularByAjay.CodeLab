@@ -1,0 +1,22 @@
+<h1>Data Binding</h1>
+<h2>Output Binding</h2>
+<h3>Interpolation</h3>
+<p><b>App Name: </b>{{ appName }}</p>
+<p><b>User Name: </b>{{ user.firstName }}</p>
+<br>
+<br>
+<h2>Input Binding</h2>
+<h3>Property Binding</h3>
+<img [src]="imageUrl" alt="320">
+<img [src]="imageRelativeUrl" alt="320">
+<br>
+<br>
+<h3>Event Binding</h3>
+<button (click)="showMessage()">Click Me!</button>
+<br>
+<br>
+<h2>Two Way Binding</h2>
+<p>Enter you name:
+    <input type="text" [(ngModel)]="userName">
+    {{userName}}
+</p>

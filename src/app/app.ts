@@ -2,12 +2,13 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Profile } from "./profile/profile";
 import { Parent } from './lifecycle/parent/parent';
+import { DataBinding } from "./angular-basic/data-binding/data-binding";
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.css',
-  imports: [Profile, Parent]
+  imports: [DataBinding]
 })
 export class App {
   
